@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="repetitivo\" />
+    <Compile Remove="repetitivo\**" />
+    <EmbeddedResource Remove="repetitivo\**" />
+    <None Remove="repetitivo\**" />
   </ItemGroup>
 
 </Project>
