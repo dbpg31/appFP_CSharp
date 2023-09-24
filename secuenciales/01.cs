@@ -33,7 +33,15 @@ namespace appFP_CSharp.secuenciales
 
         private void c1_Load(object sender, EventArgs e)
         {
+            int varones = int.Parse(txtVarones.Text);
+            int mujeres = int.Parse(txtMujeres.Text);
 
+            int total = varones + mujeres;
+            double PVarones = varones * 100.0 / total;
+            double PMujeres = mujeres * 100.0 / total;
+
+            lblPVarones.Text = PVarones.ToString("##.00 %");
+            lblPMujeres.Text = PVarones.ToString("##.00 %");
         }
 
         private void calcular_Click(object sender, EventArgs e)

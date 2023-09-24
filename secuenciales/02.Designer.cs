@@ -28,184 +28,185 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblCentimetros = new System.Windows.Forms.Label();
-            this.lblMetros = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblPVarones = new System.Windows.Forms.Label();
-            this.lblPMujeres = new System.Windows.Forms.Label();
-            this.calcular = new System.Windows.Forms.Button();
-            this.txtMetros = new System.Windows.Forms.TextBox();
-            this.txtCentimetros = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblYardas = new System.Windows.Forms.Label();
-            this.lblPulgadas = new System.Windows.Forms.Label();
-            this.lblPies = new System.Windows.Forms.Label();
-            this.txtYardas = new System.Windows.Forms.TextBox();
-            this.txtPies = new System.Windows.Forms.TextBox();
-            this.txtPulgadas = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
+            lblCentimetros = new Label();
+            lblMetros = new Label();
+            label3 = new Label();
+            lblPVarones = new Label();
+            lblPMujeres = new Label();
+            calcular = new Button();
+            txtMetros = new TextBox();
+            txtCentimetros = new TextBox();
+            label1 = new Label();
+            lblYardas = new Label();
+            lblPulgadas = new Label();
+            lblPies = new Label();
+            txtYardas = new TextBox();
+            txtPies = new TextBox();
+            txtPulgadas = new TextBox();
+            SuspendLayout();
             // 
             // lblCentimetros
             // 
-            this.lblCentimetros.AccessibleName = "";
-            this.lblCentimetros.AutoSize = true;
-            this.lblCentimetros.Location = new System.Drawing.Point(21, 65);
-            this.lblCentimetros.Name = "lblCentimetros";
-            this.lblCentimetros.Size = new System.Drawing.Size(72, 15);
-            this.lblCentimetros.TabIndex = 4;
-            this.lblCentimetros.Text = "Centìmetros";
+            lblCentimetros.AccessibleName = "";
+            lblCentimetros.AutoSize = true;
+            lblCentimetros.Location = new Point(21, 65);
+            lblCentimetros.Name = "lblCentimetros";
+            lblCentimetros.Size = new Size(72, 15);
+            lblCentimetros.TabIndex = 4;
+            lblCentimetros.Text = "Centìmetros";
             // 
             // lblMetros
             // 
-            this.lblMetros.AccessibleName = "";
-            this.lblMetros.AutoSize = true;
-            this.lblMetros.Location = new System.Drawing.Point(21, 30);
-            this.lblMetros.Name = "lblMetros";
-            this.lblMetros.Size = new System.Drawing.Size(53, 15);
-            this.lblMetros.TabIndex = 7;
-            this.lblMetros.Text = "Metros  :";
+            lblMetros.AccessibleName = "";
+            lblMetros.AutoSize = true;
+            lblMetros.Location = new Point(21, 30);
+            lblMetros.Name = "lblMetros";
+            lblMetros.Size = new Size(53, 15);
+            lblMetros.TabIndex = 7;
+            lblMetros.Text = "Metros  :";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 65);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 15);
-            this.label3.TabIndex = 11;
+            label3.AutoSize = true;
+            label3.Location = new Point(21, 65);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 15);
+            label3.TabIndex = 11;
             // 
             // lblPVarones
             // 
-            this.lblPVarones.AutoSize = true;
-            this.lblPVarones.Location = new System.Drawing.Point(227, 30);
-            this.lblPVarones.Name = "lblPVarones";
-            this.lblPVarones.Size = new System.Drawing.Size(0, 15);
-            this.lblPVarones.TabIndex = 6;
+            lblPVarones.AutoSize = true;
+            lblPVarones.Location = new Point(227, 30);
+            lblPVarones.Name = "lblPVarones";
+            lblPVarones.Size = new Size(0, 15);
+            lblPVarones.TabIndex = 6;
             // 
             // lblPMujeres
             // 
-            this.lblPMujeres.AutoSize = true;
-            this.lblPMujeres.Location = new System.Drawing.Point(227, 65);
-            this.lblPMujeres.Name = "lblPMujeres";
-            this.lblPMujeres.Size = new System.Drawing.Size(0, 15);
-            this.lblPMujeres.TabIndex = 5;
+            lblPMujeres.AutoSize = true;
+            lblPMujeres.Location = new Point(227, 65);
+            lblPMujeres.Name = "lblPMujeres";
+            lblPMujeres.Size = new Size(0, 15);
+            lblPMujeres.TabIndex = 5;
             // 
             // calcular
             // 
-            this.calcular.Location = new System.Drawing.Point(106, 231);
-            this.calcular.Name = "calcular";
-            this.calcular.Size = new System.Drawing.Size(75, 23);
-            this.calcular.TabIndex = 12;
-            this.calcular.Text = "c&alcular";
-            this.calcular.UseVisualStyleBackColor = true;
-            this.calcular.Click += new System.EventHandler(this.calcular_Click);
+            calcular.Location = new Point(106, 231);
+            calcular.Name = "calcular";
+            calcular.Size = new Size(75, 23);
+            calcular.TabIndex = 12;
+            calcular.Text = "c&alcular";
+            calcular.UseVisualStyleBackColor = true;
+            calcular.Click += calcular_Click;
             // 
             // txtMetros
             // 
-            this.txtMetros.AccessibleName = "";
-            this.txtMetros.Location = new System.Drawing.Point(106, 22);
-            this.txtMetros.Name = "txtMetros";
-            this.txtMetros.Size = new System.Drawing.Size(100, 23);
-            this.txtMetros.TabIndex = 9;
-            this.txtMetros.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            txtMetros.AccessibleName = "";
+            txtMetros.Location = new Point(106, 22);
+            txtMetros.Name = "txtMetros";
+            txtMetros.Size = new Size(100, 23);
+            txtMetros.TabIndex = 9;
+            txtMetros.TextAlign = HorizontalAlignment.Right;
             // 
             // txtCentimetros
             // 
-            this.txtCentimetros.Location = new System.Drawing.Point(106, 57);
-            this.txtCentimetros.Name = "txtCentimetros";
-            this.txtCentimetros.Size = new System.Drawing.Size(100, 23);
-            this.txtCentimetros.TabIndex = 10;
-            this.txtCentimetros.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            txtCentimetros.Location = new Point(106, 57);
+            txtCentimetros.Name = "txtCentimetros";
+            txtCentimetros.Size = new Size(100, 23);
+            txtCentimetros.TabIndex = 10;
+            txtCentimetros.TextAlign = HorizontalAlignment.Right;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-7, -2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
-            this.label1.TabIndex = 8;
+            label1.AutoSize = true;
+            label1.Location = new Point(-7, -2);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 15);
+            label1.TabIndex = 8;
             // 
             // lblYardas
             // 
-            this.lblYardas.AccessibleName = "";
-            this.lblYardas.AutoSize = true;
-            this.lblYardas.Location = new System.Drawing.Point(21, 162);
-            this.lblYardas.Name = "lblYardas";
-            this.lblYardas.Size = new System.Drawing.Size(47, 15);
-            this.lblYardas.TabIndex = 13;
-            this.lblYardas.Text = "Yardas :";
+            lblYardas.AccessibleName = "";
+            lblYardas.AutoSize = true;
+            lblYardas.Location = new Point(21, 162);
+            lblYardas.Name = "lblYardas";
+            lblYardas.Size = new Size(47, 15);
+            lblYardas.TabIndex = 13;
+            lblYardas.Text = "Yardas :";
             // 
             // lblPulgadas
             // 
-            this.lblPulgadas.AccessibleName = "";
-            this.lblPulgadas.AutoSize = true;
-            this.lblPulgadas.Location = new System.Drawing.Point(21, 89);
-            this.lblPulgadas.Name = "lblPulgadas";
-            this.lblPulgadas.Size = new System.Drawing.Size(61, 15);
-            this.lblPulgadas.TabIndex = 14;
-            this.lblPulgadas.Text = "Pulgadas :";
+            lblPulgadas.AccessibleName = "";
+            lblPulgadas.AutoSize = true;
+            lblPulgadas.Location = new Point(21, 89);
+            lblPulgadas.Name = "lblPulgadas";
+            lblPulgadas.Size = new Size(61, 15);
+            lblPulgadas.TabIndex = 14;
+            lblPulgadas.Text = "Pulgadas :";
             // 
             // lblPies
             // 
-            this.lblPies.AccessibleName = "";
-            this.lblPies.AutoSize = true;
-            this.lblPies.Location = new System.Drawing.Point(21, 120);
-            this.lblPies.Name = "lblPies";
-            this.lblPies.Size = new System.Drawing.Size(34, 15);
-            this.lblPies.TabIndex = 15;
-            this.lblPies.Text = "Pies :";
+            lblPies.AccessibleName = "";
+            lblPies.AutoSize = true;
+            lblPies.Location = new Point(21, 120);
+            lblPies.Name = "lblPies";
+            lblPies.Size = new Size(34, 15);
+            lblPies.TabIndex = 15;
+            lblPies.Text = "Pies :";
             // 
             // txtYardas
             // 
-            this.txtYardas.AccessibleName = "";
-            this.txtYardas.Location = new System.Drawing.Point(106, 159);
-            this.txtYardas.Name = "txtYardas";
-            this.txtYardas.Size = new System.Drawing.Size(100, 23);
-            this.txtYardas.TabIndex = 16;
-            this.txtYardas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            txtYardas.AccessibleName = "";
+            txtYardas.Location = new Point(106, 159);
+            txtYardas.Name = "txtYardas";
+            txtYardas.ReadOnly = true;
+            txtYardas.Size = new Size(100, 23);
+            txtYardas.TabIndex = 16;
+            txtYardas.TextAlign = HorizontalAlignment.Right;
             // 
             // txtPies
             // 
-            this.txtPies.AccessibleName = "";
-            this.txtPies.Location = new System.Drawing.Point(106, 117);
-            this.txtPies.Name = "txtPies";
-            this.txtPies.Size = new System.Drawing.Size(100, 23);
-            this.txtPies.TabIndex = 17;
-            this.txtPies.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            txtPies.AccessibleName = "";
+            txtPies.Location = new Point(106, 117);
+            txtPies.Name = "txtPies";
+            txtPies.ReadOnly = true;
+            txtPies.Size = new Size(100, 23);
+            txtPies.TabIndex = 17;
+            txtPies.TextAlign = HorizontalAlignment.Right;
             // 
             // txtPulgadas
             // 
-            this.txtPulgadas.AccessibleName = "";
-            this.txtPulgadas.Location = new System.Drawing.Point(106, 86);
-            this.txtPulgadas.Name = "txtPulgadas";
-            this.txtPulgadas.Size = new System.Drawing.Size(100, 23);
-            this.txtPulgadas.TabIndex = 18;
-            this.txtPulgadas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            txtPulgadas.AccessibleName = "";
+            txtPulgadas.Location = new Point(106, 86);
+            txtPulgadas.Name = "txtPulgadas";
+            txtPulgadas.Size = new Size(100, 23);
+            txtPulgadas.TabIndex = 18;
+            txtPulgadas.TextAlign = HorizontalAlignment.Right;
             // 
             // _02
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(257, 355);
-            this.Controls.Add(this.txtPulgadas);
-            this.Controls.Add(this.txtPies);
-            this.Controls.Add(this.txtYardas);
-            this.Controls.Add(this.lblPies);
-            this.Controls.Add(this.lblPulgadas);
-            this.Controls.Add(this.lblYardas);
-            this.Controls.Add(this.lblCentimetros);
-            this.Controls.Add(this.txtCentimetros);
-            this.Controls.Add(this.txtMetros);
-            this.Controls.Add(this.calcular);
-            this.Controls.Add(this.lblPMujeres);
-            this.Controls.Add(this.lblPVarones);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.lblMetros);
-            this.Controls.Add(this.label1);
-            this.Name = "_02";
-            this.Text = "_02";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(257, 355);
+            Controls.Add(txtPulgadas);
+            Controls.Add(txtPies);
+            Controls.Add(txtYardas);
+            Controls.Add(lblPies);
+            Controls.Add(lblPulgadas);
+            Controls.Add(lblYardas);
+            Controls.Add(lblCentimetros);
+            Controls.Add(txtCentimetros);
+            Controls.Add(txtMetros);
+            Controls.Add(calcular);
+            Controls.Add(lblPMujeres);
+            Controls.Add(lblPVarones);
+            Controls.Add(label3);
+            Controls.Add(lblMetros);
+            Controls.Add(label1);
+            Name = "_02";
+            Text = "_02";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

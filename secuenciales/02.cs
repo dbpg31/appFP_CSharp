@@ -19,12 +19,12 @@ namespace appFP_CSharp.secuenciales
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-                int metros = int.Parse(txtMetros.Text);
+            int metros = int.Parse(txtMetros.Text);
 
-               double centimetros = metros * 100.0 ;
-               double pulgadas = metros /2.54;
-               double pies = pulgadas / 12 ;
-               double yardas = pies / 3 ;
+            double centimetros = metros * 100.0;
+            double pulgadas = metros / 2.54;
+            double pies = pulgadas / 12;
+            double yardas = pies / 3;
 
             txtCentimetros.Text = centimetros.ToString("##.00");
             txtPulgadas.Text = pulgadas.ToString("##.00");
@@ -33,7 +33,7 @@ namespace appFP_CSharp.secuenciales
 
 
 
-            }
+        }
 
         private void calcular_Click(object sender, EventArgs e)
         {
@@ -41,5 +41,5 @@ namespace appFP_CSharp.secuenciales
         }
     }
 
-    }
+}
 

@@ -10,26 +10,23 @@ using System.Windows.Forms;
 
 namespace appFP_CSharp.secuenciales
 {
-    public partial class _04 : Form
+    public partial class _07 : Form
     {
-        public _04()
+        public _07()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int pies = int.Parse(txtPies.Text);
-            int pulgadas = int.Parse(txtPulgadas.Text);
-            double metros = (pies * (1 / 3.2808)) + (pulgadas * 0.0254);
+            int Base = int.Parse(txtBase.Text);
+            int altura = int.Parse(txtAltura.Text);
+            double Area = Base * altura;
+            double perimetro = 2 * (Base + altura);
 
+            txtArea.Text = Area.ToString("##.00");
+            txtPerimetro.Text = perimetro.ToString("##.00");
 
-            txtMetros.Text = metros.ToString("##.00");
         }
     }
 }
