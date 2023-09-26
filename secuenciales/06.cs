@@ -27,10 +27,15 @@ namespace appFP_CSharp.secuenciales
             int radio = int.Parse(txtRadio.Text);
             int altura = int.Parse(txtAltura.Text);
             double AreaTotal = 2 * (Math.PI) * radio * altura;
-            double volumen = (Math.PI) * (Math.ScaleB(radio, 2)) * altura;
+            double volumen = (Math.PI) * (Math.Pow(radio, 2)) * altura;
 
             txtAreaTotal.Text = AreaTotal.ToString("##.00");
             txtVolumen.Text = volumen.ToString("##.00");
+
+        }
+
+        private void _06_Load(object sender, EventArgs e)
+        {
 
         }
     }

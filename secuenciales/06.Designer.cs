@@ -132,6 +132,7 @@
             Controls.Add(lblRadio);
             Name = "_06";
             Text = "_06";
+            Load += _06_Load;
             ResumeLayout(false);
             PerformLayout();
         }

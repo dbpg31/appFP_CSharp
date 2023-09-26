@@ -1,6 +1,6 @@
 ﻿namespace appFP_CSharp.condicionales
 {
-    partial class _12
+    partial class _05
     {
         /// <summary>
         /// Required designer variable.
@@ -28,78 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnCalcular = new Button();
             lblNumero = new Label();
             txtNumero = new TextBox();
-            lblDia = new Label();
-            txtDia = new TextBox();
+            btnCalcular = new Button();
+            lblNuevoNumero = new Label();
+            txtNuevoNumero = new TextBox();
             SuspendLayout();
-            // 
-            // btnCalcular
-            // 
-            btnCalcular.Location = new Point(114, 190);
-            btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(75, 23);
-            btnCalcular.TabIndex = 0;
-            btnCalcular.Text = "C&alcular";
-            btnCalcular.UseVisualStyleBackColor = true;
-            btnCalcular.Click += btnCalcular_Click_1;
             // 
             // lblNumero
             // 
             lblNumero.AutoSize = true;
-            lblNumero.Location = new Point(58, 62);
+            lblNumero.Location = new Point(64, 50);
             lblNumero.Name = "lblNumero";
             lblNumero.Size = new Size(57, 15);
-            lblNumero.TabIndex = 1;
+            lblNumero.TabIndex = 0;
             lblNumero.Text = "Numero :";
             // 
             // txtNumero
             // 
-            txtNumero.Location = new Point(172, 54);
+            txtNumero.Location = new Point(181, 42);
             txtNumero.Name = "txtNumero";
             txtNumero.Size = new Size(100, 23);
-            txtNumero.TabIndex = 2;
+            txtNumero.TabIndex = 1;
             // 
-            // lblDia
+            // btnCalcular
             // 
-            lblDia.AutoSize = true;
-            lblDia.Location = new Point(58, 121);
-            lblDia.Name = "lblDia";
-            lblDia.Size = new Size(102, 15);
-            lblDia.TabIndex = 3;
-            lblDia.Text = "Dia de la semana :";
+            btnCalcular.Location = new Point(109, 190);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(75, 23);
+            btnCalcular.TabIndex = 2;
+            btnCalcular.Text = "C&alcular";
+            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
-            // txtDia
+            // lblNuevoNumero
             // 
-            txtDia.Location = new Point(172, 118);
-            txtDia.Name = "txtDia";
-            txtDia.ReadOnly = true;
-            txtDia.Size = new Size(100, 23);
-            txtDia.TabIndex = 4;
+            lblNuevoNumero.AutoSize = true;
+            lblNuevoNumero.Location = new Point(64, 125);
+            lblNuevoNumero.Name = "lblNuevoNumero";
+            lblNuevoNumero.Size = new Size(95, 15);
+            lblNuevoNumero.TabIndex = 3;
+            lblNuevoNumero.Text = "Nuevo Número :";
             // 
-            // _12
+            // txtNuevoNumero
+            // 
+            txtNuevoNumero.Location = new Point(181, 117);
+            txtNuevoNumero.Name = "txtNuevoNumero";
+            txtNuevoNumero.Size = new Size(100, 23);
+            txtNuevoNumero.TabIndex = 4;
+            // 
+            // _05
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(319, 287);
-            Controls.Add(txtDia);
-            Controls.Add(lblDia);
+            ClientSize = new Size(357, 289);
+            Controls.Add(txtNuevoNumero);
+            Controls.Add(lblNuevoNumero);
+            Controls.Add(btnCalcular);
             Controls.Add(txtNumero);
             Controls.Add(lblNumero);
-            Controls.Add(btnCalcular);
-            Name = "_12";
-            Text = "_12";
+            Name = "_05";
+            Text = "_05";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnCalcular;
         private Label lblNumero;
         private TextBox txtNumero;
-        private Label lblDia;
-        private TextBox txtDia;
+        private Button btnCalcular;
+        private Label lblNuevoNumero;
+        private TextBox txtNuevoNumero;
     }
 }

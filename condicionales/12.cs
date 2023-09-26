@@ -26,5 +26,18 @@ namespace appFP_CSharp.condicionales
         {
 
         }
+
+        private void btnCalcular_Click_1(object sender, EventArgs e)
+        {
+            int numero = int.Parse(txtNumero.Text);
+
+            if (numero == 1) txtDia.Text = ("Lunes");
+            else if (numero == 2) txtDia.Text = ("Martes");
+            else if (numero == 3) txtDia.Text = ("Miercoles");
+            else if (numero == 4) txtDia.Text = ("Jueves");
+            else if (numero == 5) txtDia.Text = ("Viernes");
+            else if (numero == 6) txtDia.Text = ("Sabado");
+            else if (numero == 7) txtDia.Text = ("Domingo");
+        }
     }
 }

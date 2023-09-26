@@ -1,6 +1,6 @@
 ﻿namespace appFP_CSharp.condicionales
 {
-    partial class _12
+    partial class _11
     {
         /// <summary>
         /// Required designer variable.
@@ -31,24 +31,24 @@
             btnCalcular = new Button();
             lblNumero = new Label();
             txtNumero = new TextBox();
-            lblDia = new Label();
-            txtDia = new TextBox();
+            lblTipo = new Label();
+            txtTipo = new TextBox();
             SuspendLayout();
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(114, 190);
+            btnCalcular.Location = new Point(120, 191);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(75, 23);
             btnCalcular.TabIndex = 0;
             btnCalcular.Text = "C&alcular";
             btnCalcular.UseVisualStyleBackColor = true;
-            btnCalcular.Click += btnCalcular_Click_1;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // lblNumero
             // 
             lblNumero.AutoSize = true;
-            lblNumero.Location = new Point(58, 62);
+            lblNumero.Location = new Point(64, 45);
             lblNumero.Name = "lblNumero";
             lblNumero.Size = new Size(57, 15);
             lblNumero.TabIndex = 1;
@@ -56,40 +56,40 @@
             // 
             // txtNumero
             // 
-            txtNumero.Location = new Point(172, 54);
+            txtNumero.Location = new Point(192, 37);
             txtNumero.Name = "txtNumero";
             txtNumero.Size = new Size(100, 23);
             txtNumero.TabIndex = 2;
             // 
-            // lblDia
+            // lblTipo
             // 
-            lblDia.AutoSize = true;
-            lblDia.Location = new Point(58, 121);
-            lblDia.Name = "lblDia";
-            lblDia.Size = new Size(102, 15);
-            lblDia.TabIndex = 3;
-            lblDia.Text = "Dia de la semana :";
+            lblTipo.AutoSize = true;
+            lblTipo.Location = new Point(64, 113);
+            lblTipo.Name = "lblTipo";
+            lblTipo.Size = new Size(83, 15);
+            lblTipo.TabIndex = 3;
+            lblTipo.Text = "Tipo Número :";
             // 
-            // txtDia
+            // txtTipo
             // 
-            txtDia.Location = new Point(172, 118);
-            txtDia.Name = "txtDia";
-            txtDia.ReadOnly = true;
-            txtDia.Size = new Size(100, 23);
-            txtDia.TabIndex = 4;
+            txtTipo.Location = new Point(192, 105);
+            txtTipo.Name = "txtTipo";
+            txtTipo.ReadOnly = true;
+            txtTipo.Size = new Size(100, 23);
+            txtTipo.TabIndex = 4;
             // 
-            // _12
+            // _11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(319, 287);
-            Controls.Add(txtDia);
-            Controls.Add(lblDia);
+            ClientSize = new Size(362, 333);
+            Controls.Add(txtTipo);
+            Controls.Add(lblTipo);
             Controls.Add(txtNumero);
             Controls.Add(lblNumero);
             Controls.Add(btnCalcular);
-            Name = "_12";
-            Text = "_12";
+            Name = "_11";
+            Text = "_11";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -99,7 +99,7 @@
         private Button btnCalcular;
         private Label lblNumero;
         private TextBox txtNumero;
-        private Label lblDia;
-        private TextBox txtDia;
+        private Label lblTipo;
+        private TextBox txtTipo;
     }
 }

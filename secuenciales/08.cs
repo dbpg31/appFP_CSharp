@@ -21,13 +21,18 @@ namespace appFP_CSharp.secuenciales
         {
             int radio = int.Parse(txtRadio.Text);
             int altura = int.Parse(txtAltura.Text);
-            double areabase = (Math.PI) * Math.ScaleB(radio, 2);
+            double areabase = (Math.PI) * Math.Pow(radio, 2);
             double arealateral = 2 * (Math.PI) * radio * altura;
             double areatotal = 2 * areabase * arealateral;
 
             txtAreaBase.Text = areabase.ToString("##.00");
             txtAreaLateral.Text = arealateral.ToString("##.00");
             txtAreaTotal.Text = areatotal.ToString("##.00");
+        }
+
+        private void _08_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

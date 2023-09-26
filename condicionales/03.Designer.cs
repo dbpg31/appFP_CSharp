@@ -1,6 +1,6 @@
 ﻿namespace appFP_CSharp.condicionales
 {
-    partial class _12
+    partial class _03
     {
         /// <summary>
         /// Required designer variable.
@@ -29,67 +29,67 @@
         private void InitializeComponent()
         {
             btnCalcular = new Button();
-            lblNumero = new Label();
-            txtNumero = new TextBox();
-            lblDia = new Label();
-            txtDia = new TextBox();
+            lblAngulo = new Label();
+            txtAngulo = new TextBox();
+            lblTipo = new Label();
+            txtTipo = new TextBox();
             SuspendLayout();
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(114, 190);
+            btnCalcular.Location = new Point(146, 284);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(75, 23);
             btnCalcular.TabIndex = 0;
             btnCalcular.Text = "C&alcular";
             btnCalcular.UseVisualStyleBackColor = true;
-            btnCalcular.Click += btnCalcular_Click_1;
+            btnCalcular.Click += btnCalcular_Click;
             // 
-            // lblNumero
+            // lblAngulo
             // 
-            lblNumero.AutoSize = true;
-            lblNumero.Location = new Point(58, 62);
-            lblNumero.Name = "lblNumero";
-            lblNumero.Size = new Size(57, 15);
-            lblNumero.TabIndex = 1;
-            lblNumero.Text = "Numero :";
+            lblAngulo.AutoSize = true;
+            lblAngulo.Location = new Point(61, 93);
+            lblAngulo.Name = "lblAngulo";
+            lblAngulo.Size = new Size(55, 15);
+            lblAngulo.TabIndex = 1;
+            lblAngulo.Text = "Angulo : ";
             // 
-            // txtNumero
+            // txtAngulo
             // 
-            txtNumero.Location = new Point(172, 54);
-            txtNumero.Name = "txtNumero";
-            txtNumero.Size = new Size(100, 23);
-            txtNumero.TabIndex = 2;
+            txtAngulo.Location = new Point(146, 85);
+            txtAngulo.Name = "txtAngulo";
+            txtAngulo.Size = new Size(100, 23);
+            txtAngulo.TabIndex = 2;
             // 
-            // lblDia
+            // lblTipo
             // 
-            lblDia.AutoSize = true;
-            lblDia.Location = new Point(58, 121);
-            lblDia.Name = "lblDia";
-            lblDia.Size = new Size(102, 15);
-            lblDia.TabIndex = 3;
-            lblDia.Text = "Dia de la semana :";
+            lblTipo.AutoSize = true;
+            lblTipo.Location = new Point(61, 176);
+            lblTipo.Name = "lblTipo";
+            lblTipo.Size = new Size(80, 15);
+            lblTipo.TabIndex = 3;
+            lblTipo.Text = "Clasificación :";
             // 
-            // txtDia
+            // txtTipo
             // 
-            txtDia.Location = new Point(172, 118);
-            txtDia.Name = "txtDia";
-            txtDia.ReadOnly = true;
-            txtDia.Size = new Size(100, 23);
-            txtDia.TabIndex = 4;
+            txtTipo.Location = new Point(146, 168);
+            txtTipo.Name = "txtTipo";
+            txtTipo.ReadOnly = true;
+            txtTipo.Size = new Size(100, 23);
+            txtTipo.TabIndex = 4;
             // 
-            // _12
+            // _03
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(319, 287);
-            Controls.Add(txtDia);
-            Controls.Add(lblDia);
-            Controls.Add(txtNumero);
-            Controls.Add(lblNumero);
+            ClientSize = new Size(319, 368);
+            Controls.Add(txtTipo);
+            Controls.Add(lblTipo);
+            Controls.Add(txtAngulo);
+            Controls.Add(lblAngulo);
             Controls.Add(btnCalcular);
-            Name = "_12";
-            Text = "_12";
+            Name = "_03";
+            Text = "_03";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -97,9 +97,9 @@
         #endregion
 
         private Button btnCalcular;
-        private Label lblNumero;
-        private TextBox txtNumero;
-        private Label lblDia;
-        private TextBox txtDia;
+        private Label lblAngulo;
+        private TextBox txtAngulo;
+        private Label lblTipo;
+        private TextBox txtTipo;
     }
 }
